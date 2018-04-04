@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio 6</title>
+	<style>
+		.row{
+  			clear: both;
+		}
+		@media(max-width: 480px){
+	  		.col-ms-1{
+				width: 100%;
+				background-color: green;
+				height: 75px;
+				text-align: center;
+				font-size: 25px;
+				color:white;
+				padding-top: 3vh;
+				box-sizing: border-box;
+			}  
+	  		.col-ms-2{
+				width: 100%;
+				box-sizing: border-box;
+				padding: 100px 20px 0 20px;
+			}
+			.img-responsive{
+					max-width: 100%;
+					
+					padding-left: 5vw;	
+			}
+		}		
+	    @media(min-width: 481px){
+			.col-md-1{
+				width: 100%;
+				background-color: green;
+				height: 300px;
+				text-align: center;
+				font-size: 40px;
+				color:white;
+				padding-top: 100px;
+				box-sizing: border-box;
+			}
+			.col-md-2{
+				float: left;
+				width: 33%;
+				box-sizing: border-box;
+				padding: 100px 20px 0 20px;
+			}	
+			.img-responsive{
+					max-width: 100%;
+				
+					padding-left: 5vw;	
+			}
+		}
+	</style>
+
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-1 col-ms-1">
+		Snoopys preciosos		
+		</div>
+		<div class="col-md-2 col-ms-2">
+			<img class="img-responsive" src="images/images.png">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore possimus cum exercitationem ea, saepe tempora id nulla voluptatum ratione suscipit, nam. Dolorem sequi est, repudiandae. Ullam accusamus ipsa itaque, aliquam?</p>
+		</div>
+		<div class="col-md-2 col-ms-2">
+			<img class="img-responsive" src="images/images2.png">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore possimus cum exercitationem ea, saepe tempora id nulla voluptatum ratione suscipit, nam. Dolorem sequi est, repudiandae. Ullam accusamus ipsa itaque, aliquam?</p>
+		</div>
+		<div class="col-md-2 col-ms-2">
+			<img class="img-responsive" src="images/images3.png">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore possimus cum exercitationem ea, saepe tempora id nulla voluptatum ratione suscipit, nam. Dolorem sequi est, repudiandae. Ullam accusamus ipsa itaque, aliquam?</p>
+		</div>	
+	</div>
+</body>
+</html>
